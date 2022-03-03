@@ -15,7 +15,7 @@ export const refreshFrequency = 10 * 1000;
 
 const textColor = "white";
 const glowColor = "hotpink";
-const glowStrength = 2.5;
+const glowStrength = 0.75;
 
 const glowStyle = () => {
   let css = "";
@@ -48,8 +48,6 @@ export const className = `
   }
 `;
 
-// render gets called after the shell command has executed. The command's output
-// is passed in as a string.
 export const render = () => {
   // Current date/time
   const d = new Date();
